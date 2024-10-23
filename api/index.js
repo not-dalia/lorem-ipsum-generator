@@ -4,7 +4,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var { inject } = require('@vercel/analytics');
 
-var indexRouter = require('./routes/index');
+var indexRouter = require('../routes/index');
 
 var app = express();
 
