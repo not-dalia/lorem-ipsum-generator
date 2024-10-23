@@ -9,7 +9,7 @@ const loremGeneratorSchema = {
         "description": "Number of paragraphs to generate",
         "minimum": 0,
         "maximum": 20,
-        "example": 3,
+        "example": 2,
         "default": 1
 
       },
