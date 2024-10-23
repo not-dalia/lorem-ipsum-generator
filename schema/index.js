@@ -1,5 +1,5 @@
 const loremGeneratorSchema = {
-  "name": "Lorem Ipsum Generator",
+  "name": "generateLoremIpsum",
   "description": "Generate Lorem Ipsum placeholder text",
   "input": {
     "type": "object",
