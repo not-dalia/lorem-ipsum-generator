@@ -28,7 +28,7 @@ class LoremGenerator {
     let text = this.initializeText(wordsPerParagraph);
 
     for (let i = 0; i < paragraphCount; i++) {
-      text += this.generateParagraph(wordsPerParagraph);
+      text += this.generateParagraph(wordsPerParagraph).trim() + "\n\n";
       this.resetParagraphState();
     }
 
@@ -66,7 +66,7 @@ class LoremGenerator {
       }
     }
 
-    return paragraphText + "\n\n";
+    return paragraphText;
   }
 
   generateWord() {
